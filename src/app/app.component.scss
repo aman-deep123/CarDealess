@@ -1,0 +1,30 @@
+.custom-navbar {
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    width: 50px; /* Adjust logo size */
+    height: auto;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links .navbar-nav {
+    gap: 20px; /* Space between menu items */
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  

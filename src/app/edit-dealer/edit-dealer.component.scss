@@ -1,0 +1,33 @@
+.container {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+  }
+  
+  .button-group .btn {
+    width: auto; 
+    flex: 1; 
+    max-width: 200px;
+  }
+  
+  

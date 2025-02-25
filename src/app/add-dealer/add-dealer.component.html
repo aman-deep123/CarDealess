@@ -1,0 +1,42 @@
+<div class="container">
+    <h2 class="text-center">Add Dealer</h2>
+
+    <form [formGroup]="dealerForm" (ngSubmit)="onSubmit()">
+        <!-- Sr. No -->
+        <div class="mb-3">
+            <label for="srNo" class="form-label">Sr. No</label>
+            <input type="number" id="srNo" class="form-control" formControlName="srNo" required>
+        </div>
+
+        <!-- Name -->
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" class="form-control" formControlName="name" required>
+        </div>
+
+        <!-- Amount of Cars -->
+        <div class="mb-3">
+            <label for="cars" class="form-label">Amount Of Cars</label>
+            <input type="number" id="cars" class="form-control" formControlName="cars" required>
+        </div>
+
+        <!-- Total Budget -->
+        <div class="mb-3">
+            <label for="totalBudget" class="form-label">Total Budget ($)</label>
+            <input type="number" id="totalBudget" class="form-control" formControlName="totalBudget" required>
+        </div>
+
+        <!-- Remaining Budget -->
+        <div class="mb-3">
+            <label for="remainingBudget" class="form-label">Remaining Budget ($)</label>
+            <input type="number" id="remainingBudget" class="form-control" formControlName="remainingBudget" required>
+        </div>
+
+        <!-- Submit & Cancel Buttons -->
+        <div class="button-group">
+            <button type="submit" class="btn btn-primary" [disabled]="dealerForm.invalid">Submit</button>
+            <button type="button" class="btn btn-secondary" (click)="onCancel()">Cancel</button>
+        </div>
+
+    </form>
+</div>

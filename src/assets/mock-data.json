@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Ford", "cars": 3, "totalBudget": 1525, "remainingBudget": 2700 },
+  { "id": 2, "name": "Toyota", "cars": 5, "totalBudget": 2000, "remainingBudget": 3000 },
+  { "id": 3, "name": "Honda", "cars": 4, "totalBudget": 1800, "remainingBudget": 2500 },
+  { "id": 4, "name": "BMW", "cars": 6, "totalBudget": 3500, "remainingBudget": 4500 },
+  { "id": 5, "name": "Audi", "cars": 2, "totalBudget": 1700, "remainingBudget": 2200 }
+]
